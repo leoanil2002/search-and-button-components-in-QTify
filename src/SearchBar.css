@@ -1,0 +1,31 @@
+/* src/SearchBar.css */
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 2px solid green;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.search-bar button svg {
+  fill: black;
+}
+
+.search-bar button:hover svg {
+  fill: green;
+}

@@ -1,0 +1,15 @@
+/* src/Button.css */
+.feedback-button {
+  background-color: black;
+  color: green;
+  border: 2px solid green;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.feedback-button:hover {
+  background-color: green;
+  color: black;
+}
